@@ -1,0 +1,143 @@
+  /*-- Navbar --*/
+  
+  .navbar { 
+    background-color: #46b3e6;
+    font-size: 12px !important;
+    letter-spacing: 2px;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  /* -- Body -- */
+  
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  
+  .jumbotron {
+    background-color: #46b3e6;
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  .grey-background {
+    background-color: #f5f5f5;
+  }
+  
+  /* -- Headings -- */
+  
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+
+   /*-- 'Our Services' Cards (x3) --*/
+	
+  .servicecard {
+    border: 1px solid #46b3e6; 
+    border-radius:0 !important;
+    transition: box-shadow 0.03s;
+  }
+
+  .servicecard:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .4);
+  }
+
+  .servicecard-header {
+    color: #fff !important;
+    background-color: #46b3e6 !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .servicecard-footer {
+    background-color: white !important;
+  }
+
+  .servicecard-footer h3 {
+    font-size: 32px;
+  }
+
+  .servicecard-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+
+  .servicecard-footer .btn {
+    margin: 15px 0;
+    background-color: #46b3e6;
+    color: #fff;
+  }
+
+  .servicecard-footer .btn:hover {
+    border: 1px solid #46b3e6;
+    background-color: #fff !important;
+    color: #46b3e6;
+  }
+  
+  /*-- Images --*/
+  
+  .logo-agency {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 20%;
+    }
+  
+  .method-img {
+  	position: relative;
+    float: center;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 30%;
+  }
+  
+  .wavegif {
+  	width: 100%;
+    max-height: 60px;
+    bottom: 0px;
+  }
+  
+  /*-- Media Setup (Mobile & Tablet) --*/
+  
+   @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      margin: 20px 0;
+      text-align: center;
+    }
+    .btn-lg {
+      width: 80%;
+      margin-bottom: 35px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .col-sm-4 {
+      margin: 20px 0;
+      text-align: center;
+    }
+    .btn-lg {
+      width: 80%;
+      margin-bottom: 35px;
+    }
+  }
