@@ -71,8 +71,8 @@ Plans for additional features to be implemented in the future:
 ???
 
 This site was tested across multiple browsers on desktop (Google Chrome, Internet Explorer, Firefox) and on multiple mobile devices (iPhone X, OnePlus One, iPad) to ensure compatibility and responsiveness.
-During the testing phase, I realised that the agency's logo at the top left of the website (' class="brand" ') was distorted and not good quality when on mobile device browsers, so the width was reduced by 20%.
-On Mobile Devices (Under 768px), the content inside the class 'col-sm-4' and the button 'btn-lg' didn't look good when smaller than the desktop version, so the margins, width and text alignment were changed to make it look better.
+During the testing phase, I realised that the agency's logo at the top left of the website (```class="brand```) was distorted and not good quality when on mobile device browsers, so the width was reduced by 20%.
+On Mobile Devices (Under 768px), the content inside the class ```col-sm-4``` and the button ```btn-lg``` didn't look good when smaller than the desktop version, so the margins, width and text alignment were changed to make it look better.
 
 
 ## Deployment
