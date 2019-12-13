@@ -9,6 +9,8 @@ methods they use for helping businesses advertise online, a portfolio of past wo
 ## Live Website
 The live website for the agency can be found [here](https://mark-joyce.github.io/Milestone1).
 
+![Desktop Demo](https://github.com/mark-joyce/Milestone1/blob/master/assets/images/desktop-full.png "Desktop Demo")
+
 ## UX
 
 ### User stories
