@@ -1,4 +1,4 @@
-  /*-- Navbar --*/
+  /*-- Navbar - Bootstrap --*/
   
   .navbar { 
     background-color: #46b3e6;
@@ -46,7 +46,7 @@
     margin-bottom: 30px;
   }  
 
-   /*-- 'Our Services' Cards (x3) --*/
+   /*-- 'Our Services' Cards (x3) - Bootstrap --*/
 	
   .servicecard {
     border: 1px solid #46b3e6; 
