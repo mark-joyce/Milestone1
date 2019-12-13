@@ -96,20 +96,13 @@
   
   /*-- Images --*/
   
-  .logo-agency {
-  	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 20%;
-    }
-  
   .method-img {
   	position: relative;
     float: center;
   	display: block;
   	margin-left: auto;
   	margin-right: auto;
-  	width: 30%;
+  	width: 40%;
   }
   
   .wavegif {
