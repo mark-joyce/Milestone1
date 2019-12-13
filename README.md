@@ -26,15 +26,15 @@ For potential clients, I wanted to provide them with an overview of what service
 The information is simply structured within one funnel-type page and is logically grouped. In the 'Methods' section, I wanted to show potential paying clients the methods of digital marketing the agency uses such as Facebook Ads & Google Ads, which are used to benefit the clients businesses in the way they want - possibly more sales, lead generation, brand awareness.
 
 ### Skeleton
-[Landing Page wireframe](https://github.com/mark-joyce/MilestoneProject1/blob/master/wireframes/landing.jpg)
+[Landing Page wireframe](https://github.com/mark-joyce/Milestone1/blob/master/wireframes/landing.jpg)
 
-[Contact wireframe](https://github.com/mark-joyce/MilestoneProject1/blob/master/wireframes/contact.jpg)
+[Contact wireframe](https://github.com/mark-joyce/Milestone1/blob/master/wireframes/contact.jpg)
 
-[Case Study wireframe](https://github.com/mark-joyce/MilestoneProject1/blob/master/wireframes/case_study.jpg)
+[Case Study wireframe](https://github.com/mark-joyce/Milestone1/blob/master/wireframes/portfolio.jpg)
 
-[Methods wireframe](https://github.com/mark-joyce/MilestoneProject1/blob/master/wireframes/method.jpg)
+[Methods wireframe](https://github.com/mark-joyce/Milestone1/blob/master/wireframes/methods.jpg)
 
-[Services wireframe](https://github.com/mark-joyce/MilestoneProject1/blob/master/wireframes/services.jpg)
+[Services wireframe](https://github.com/mark-joyce/Milestone1/blob/master/wireframes/services.jpg)
 
 ### Surface
 The color scheme was chosen to create a friendly and natural feel with clean typography, and a blue wave moving at the end of the page to match the agency's name.
