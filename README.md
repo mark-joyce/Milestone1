@@ -72,17 +72,18 @@ The 'Portfolio' section shows the user some work the agency did with past client
 The user can also contact the agency inside the 'Contact Us' section if they want to ask any questions or start working with them.
 The methods the agency primarily uses are shown too in the 'Methods We Use' so the user can see the processes involved.
 
+How the website looks and works on a mobile phone -  the brand logo is made 20% smaller using a media query to fit and look better on the smaller screen. The navbar collapses into a burger menu and when clicked, the 4 available tabs dropdown directly under the menu.
+The 3 cards for the services section become stacked on top of each other on the smaller screen but each card still has the hover function when clicked. The cards for the portfolio section stack on top of each other too. The inputs for the contact form become the same width when on a mobile phone.
 
+How the website looks and works on a tablet - the Blue Wave website on a tablet looks almost identical to what it looks and does on a desktop. The only change between them is that the cards from the services section and the portfolio section become more thin.
 
-How the website looks and works on a mobile phone -  
+How the website looks and works on a desktop - the logo and the navigation tabs are centered with a container. The cards in the services section are side by side with each card bigger than the one to its left, which represents the difference of the plans with more services in the 'Medium' and 'Large' plans. The cards of the portfolio are side by side too, and the contact forms inputs are in a col 6-6-12 formation with the 'Name' and 'Email' side by side.
 
 All links (the Privacy Policy + the Terms of Service) will open in a new tab using 'target="_blank"' for the best user experience
 All links and navigation tabs have been manually tested to ensure that they are pointing to the correct destination.
 
 This site was tested across multiple browsers on desktop (Google Chrome, Internet Explorer, Firefox) and on multiple mobile devices (iPhone X, OnePlus One, iPad) to ensure compatibility and responsiveness.
-During the testing phase, I realised that the agency's logo at the top left of the website (```class="brand"```) was distorted and not good quality when on mobile device browsers, so the width was reduced by 20%.
-On Mobile Devices (Under 768px), the content inside the class ```col-sm-4``` and the button ```btn-lg``` didn't look good when smaller than the desktop version, so the margins, width and text alignment were changed to make it look better.
-
+During the testing phase, I realised that the agency's logo at the top left of the website (```class="brand"```) was distorted and not good quality when on mobile device browsers, so the width was reduced by 20% in a media query.
 
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.

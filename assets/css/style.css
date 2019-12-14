@@ -1,4 +1,4 @@
-  /*-- Navbar - Bootstrap --*/
+ /*-- Navbar - Bootstrap --*/
   
   .navbar { 
     background-color: #46b3e6;
@@ -10,7 +10,7 @@
   /* -- Body -- */
   
   .container-fluid {
-    padding: 60px 50px;
+    padding: 55px 50px;
   }
   
   .jumbotron {
@@ -31,19 +31,19 @@
   /* -- Headings -- */
   
   h2 {
-    font-size: 24px;
+    font-size: 25px;
     text-transform: uppercase;
-    color: #303030;
+    color: #313131;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
   
   h4 {
-    font-size: 19px;
+    font-size: 20px;
     line-height: 1.375em;
-    color: #303030;
+    color: #313131;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
   }  
 
    /*-- 'Our Services' Cards (x3) - Bootstrap --*/
@@ -98,7 +98,6 @@
   
   .method-img {
   	position: relative;
-    float: center;
   	display: block;
   	margin-left: auto;
   	margin-right: auto;
@@ -111,29 +110,9 @@
     bottom: 0px;
   }
   
-  /*-- Media Setup (Mobile & Tablet) --*/
-  
-   @media screen and (max-width: 768px) {
-    .col-sm-4 {
-      margin: 20px 0;
-      text-align: center;
-    }
-    .btn-lg {
-      width: 80%;
-      margin-bottom: 35px;
-    }
-  }
+  /*-- Media Query (Mobile Phones) --*/
   
   @media screen and (max-width: 480px) {
-    .col-sm-4 {
-      margin: 20px 0;
-      text-align: center;
-    }
-    .btn-lg {
-      width: 80%;
-      margin-bottom: 35px;
-    }
-
     .brand {
         width: 80%;
     }
