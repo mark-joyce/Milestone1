@@ -14,9 +14,7 @@ The live website for the agency can be found [here](https://mark-joyce.github.io
 ## UX
 
 ### User stories
-As a potential client visiting the website I expect to see a showcase of what services the agency provides and a portfolio of their previous work with other clients.
-
-As a paying client of the agency I expect to see the same results with my business that they promise on their website homepage and them carrying out the services of the plan I chose.
+As a potential client visiting the website I expect to see a showcase of what services the agency provides and a portfolio of their previous work with other clients, along with a method of contacting the agency and some marketing processes the agency uses for my business.
 
 ### Strategy
 My aim in the design was to showcase the possibilities of working with the agency & converting those website visitors into paying clients.
@@ -68,7 +66,18 @@ Plans for additional features to be implemented in the future:
 - Add more businesses worked with in the portfolio section as the agency grows and gets new clients.
 
 ## Testing
-???
+The client user story achieved the intended outcome of providing them with a showcase of what services the agency provides and a portfolio of their previous work with other clients.
+In the 'Our Services' section, users can see what plan suits them and their business the best, with a list of what's involved in each plan, and a 'Get Quote' button to get the user to contact the agency about their services.
+The 'Portfolio' section shows the user some work the agency did with past clients, describing the process they used and their result from it.
+The user can also contact the agency inside the 'Contact Us' section if they want to ask any questions or start working with them.
+The methods the agency primarily uses are shown too in the 'Methods We Use' so the user can see the processes involved.
+
+
+
+How the website looks and works on a mobile phone -  
+
+All links (the Privacy Policy + the Terms of Service) will open in a new tab using 'target="_blank"' for the best user experience
+All links and navigation tabs have been manually tested to ensure that they are pointing to the correct destination.
 
 This site was tested across multiple browsers on desktop (Google Chrome, Internet Explorer, Firefox) and on multiple mobile devices (iPhone X, OnePlus One, iPad) to ensure compatibility and responsiveness.
 During the testing phase, I realised that the agency's logo at the top left of the website (```class="brand"```) was distorted and not good quality when on mobile device browsers, so the width was reduced by 20%.
