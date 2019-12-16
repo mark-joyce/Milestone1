@@ -54,14 +54,10 @@
     transition: box-shadow 0.03s;
   }
 
-  .servicecard:hover {
-    box-shadow: 5px 0px 40px rgba(0,0,0, .4);
-  }
-
   .servicecard-header {
     color: #fff !important;
     background-color: #46b3e6 !important;
-    padding: 25px;
+    padding: 30px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -69,29 +65,17 @@
     border-bottom-right-radius: 0px;
   }
 
-  .servicecard-footer {
-    background-color: white !important;
-  }
-
-  .servicecard-footer h3 {
-    font-size: 32px;
+  .servicecard:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .4);
   }
 
   .servicecard-footer h4 {
     color: #aaa;
-    font-size: 14px;
+    font-size: 15px;
   }
-
+  
   .servicecard-footer .btn {
-    margin: 15px 0;
-    background-color: #46b3e6;
-    color: #fff;
-  }
-
-  .servicecard-footer .btn:hover {
-    border: 1px solid #46b3e6;
-    background-color: #fff !important;
-    color: #46b3e6;
+    margin: 25px 0;
   }
   
   /*-- Images --*/
