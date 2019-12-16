@@ -93,7 +93,7 @@ To run locally, you can clone this repository directly into the editor of your c
 ## Credits
 
 ### Content
-- All the written content in the Landing, Services, Methods, Portfolio and Contact section were written by me with the [Montserrat font.](https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat)
+- All the written content in the Landing, Services, Methods, Portfolio and Contact section were written by me with the [Montserrat font.](https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat) and some icons from [here.](https://fontawesome.com/icons)
 
 ### Media
 - [Canva](https://www.canva.com/) was used to create the agency's logo, and the logo's of the 'made up' businesses in the portfolio section.
@@ -104,8 +104,8 @@ To run locally, you can clone this repository directly into the editor of your c
 
 - [Bootstrap's](https://getbootstrap.com/docs/4.4/) components were used for the creation of the navbar, jumbotron & the cards of the 'Methods We Use' and 'Portfolio' sections.
 
-- The media query for the smaller logo size on mobile phones was taken from this [Site.](https://stackoverflow.com/questions/39759892/html-css-make-image-resize-on-smaller-screens)
+- The media query for the smaller logo size on mobile phones was taken from this [site.](https://stackoverflow.com/questions/39759892/html-css-make-image-resize-on-smaller-screens)
 
-- The hover effect on the cards from the 'Our Services' section was taken from [Here.](https://www.w3schools.com/howto/howto_css_pricing_table.asp)
+- The hover effect on the cards from the 'Our Services' section was taken from [here.](https://www.w3schools.com/howto/howto_css_pricing_table.asp)
 
-- The Sent! button JavaScript function was found through this forum [Here.](https://stackoverflow.com/questions/10671174/changing-button-text-onclick)
+- The Sent! button JavaScript function was found through this forum [here.](https://stackoverflow.com/questions/10671174/changing-button-text-onclick)
