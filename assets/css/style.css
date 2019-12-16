@@ -2,7 +2,7 @@
   
   .navbar { 
     background-color: #46b3e6;
-    font-size: 12px !important;
+    font-size: 12px;
     letter-spacing: 2px;
     font-family: 'Montserrat', sans-serif;
   }
@@ -50,13 +50,13 @@
 	
   .servicecard {
     border: 1px solid #46b3e6; 
-    border-radius:0 !important;
+    border-radius: 0;
     transition: box-shadow 0.03s;
   }
 
   .servicecard-header {
-    color: #fff !important;
-    background-color: #46b3e6 !important;
+    color: #fff;
+    background-color: #46b3e6;
     padding: 30px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
