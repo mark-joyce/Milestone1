@@ -4,7 +4,7 @@
     background-color: #46b3e6;
     font-size: 12px !important;
     letter-spacing: 2px;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   
   /* -- Body -- */
@@ -17,7 +17,7 @@
     background-color: #46b3e6;
     color: #fff;
     padding: 100px 25px;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
