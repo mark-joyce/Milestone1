@@ -16,22 +16,22 @@
 <body id="TopOfPage">
 
 	<!-- Navbar - Bootstrap -->
-	<nav class="navbar navbar-dark navbar-expand-md">
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top">
 		<div class='container'>
-			<a class="navbar-brand" href="https://mark-joyce.github.io/Milestone1/">
+			<a class="navbar-brand" href="#">
 				<img src="assets/images/bluewave-logo.png" class="brand" alt="Logo">
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"> <a class="nav-link" href="#services" style="color: white; text-align: right;">SERVICES</a>
+					<li class="nav-item"> <a class="nav-link" href="#services">SERVICES</a>
 					</li>
-					<li class="nav-item"> <a class="nav-link" href="#methods" style="color: white; text-align: right;">METHODS</a>
+					<li class="nav-item"> <a class="nav-link" href="#methods">METHODS</a>
 					</li>
-					<li class="nav-item"> <a class="nav-link" href="#portfolio" style="color: white; text-align: right;">PORTFOLIO</a>
+					<li class="nav-item"> <a class="nav-link" href="#portfolio">PORTFOLIO</a>
 					</li>
-					<li class="nav-item"> <a class="nav-link" href="#contact" style="color: white; text-align: right;">CONTACT</a>
+					<li class="nav-item"> <a class="nav-link" href="#contact">CONTACT</a>
 					</li>
 				</ul>
 			</div>
@@ -39,6 +39,7 @@
 	</nav>
 
 	<!-- Landing Section -->
+    <section> 
 	<div class="jumbotron text-center">
 		<div class="container">
 			<h1><strong>Blue Wave</strong></h1> 
@@ -47,13 +48,13 @@
 			</a>
 		</div>
 	</div>
+    </section>
 
 	<!-- 'Our Services' Section - Bootstrap Cards -->
-	<div id="services" class="container-fluid">
-		<div class="text-center">
-			<h2><strong>Our Services</strong></h2>
+    <section id="services" class="padding"> 
+	<div class="container text-center">
+			<h2>Our Services</h2>
 			<h4>Choose a Plan Based On The Size Of Your Business</h4>
-		</div>
 		<div class="row">
 			<div class="col-sm-4">
                 <br>
@@ -135,10 +136,11 @@
 			</div>
 		</div>
 	</div>
+    </section>
 
 	<!-- 'Methods We Use' Section -->
-	<div id="methods" class="container-fluid f5-background">
-		<div class="text-center">
+    <section id="methods" class="padding grey-background"> 
+	<div class="container text-center">
 			<h2><strong>Methods We Use</strong></h2>
 			<br>
 			<div class="row">
@@ -164,11 +166,12 @@
                     <br>
 				</div>
 			</div>
-		</div>
 	</div>
-
+	</section>
+    
 	<!-- 'Portfolio' Section - Bootstrap Cards -->
-	<div id="portfolio" class="container-fluid text-center">
+    <section id="portfolio" class="padding"> 
+	<div class="container text-center">
 		<h2><strong>Portfolio</strong></h2>
 		<h4>Our Work With Past Clients</h4>
 		<br>
@@ -204,9 +207,11 @@
 			</div>
 		</div>
 	</div>
+    </section>
 
 	<!-- 'Contact Us' Section -->
-	<div id="contact" class="container-fluid f5-background">
+   <section id="contact" class="padding grey-background"> 
+	<div class="container">
 		<h2 class="text-center"><strong>CONTACT US</strong></h2>
 		<div class="row">
 			<div class="col-sm-12">
@@ -236,17 +241,20 @@
 			</div>
 		</div>
 	</div>
+   </section> 
 
 	<!-- Footer -->
-	<footer class="container-fluid text-center">
-		<a href="#TopOfPage"> <span class="btn btn-dark">Back To Top</span>
-		</a>
-		<br>
-		<br>
-		<p>© 2019 Blue Wave Agency LLC</p> <a href="privacy_policy.html" target="_blank">Privacy Policy -</a>
-		<a href="terms_of_service.html" target="_blank">Terms of Service</a>
-		<p>
-			<br>🏄</p>
+	<footer class="container padding text-center">
+		<a href="#TopOfPage"> <span class="btn btn-dark">Back To Top</span></a>
+
+        <div>
+        	<br>
+			 <span class="copyright">© 2019 Blue Wave Agency LLC</span>
+        	 <span>&nbsp;🏄&nbsp;</span> 
+        	 <a href="privacy_policy.html" target="_blank">Privacy Policy |</a>
+			 <a href="terms_of_service.html" target="_blank">Terms of Service</a>
+        </div>
+        
 	</footer>
 
 	<!-- Wave GIF at Page End -->

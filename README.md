@@ -81,7 +81,7 @@ How the website looks and works on a desktop - the logo and the navigation tabs 
 
 This [validator](https://validator.w3.org/#validate_by_input) was used to test my HTML and see if there was any errors. In my testing I found that I had to change some code such as using alt's for 3 of the images and fixing a broken div.
 
-This [validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to test my CSS and check for erros. In the testing I found I made an error with a font weight and a box shadow.
+This [validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to test my CSS and check for errors. In the testing I found I made an error with a font weight and a box shadow.
 
 All links (the Privacy Policy + the Terms of Service) will open in a new tab using 'target="_blank"' for the best user experience.
 All links and navigation tabs have been manually tested to ensure that they are pointing to the correct destination.
