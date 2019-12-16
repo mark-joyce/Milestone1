@@ -102,7 +102,7 @@ To run locally, you can clone this repository directly into the editor of your c
 
 ### Acknowledgements
 
-- [Bootstrap's](https://getbootstrap.com/docs/4.4/) components were used for the creation of the navbar & the cards of the 'Methods We Use' and 'Portfolio' sections.
+- [Bootstrap's](https://getbootstrap.com/docs/4.4/) components were used for the creation of the navbar, jumbotron & the cards of the 'Methods We Use' and 'Portfolio' sections.
 
 - The media query for the smaller logo size on mobile phones was taken from this [Site.](https://stackoverflow.com/questions/39759892/html-css-make-image-resize-on-smaller-screens)
 
