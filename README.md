@@ -95,6 +95,8 @@ To run locally, you can clone this repository directly into the editor of your c
 ### Content
 - All the written content in the Landing, Services, Methods, Portfolio and Contact section were written by me with the [Montserrat font](https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat) and some icons from [here.](https://fontawesome.com/icons)
 
+- The written content of the privacy policy & terms of service pages were created using templates from [here.](https://www.shopify.com/)
+
 ### Media
 - [Canva](https://www.canva.com/) was used to create the agency's logo, and the logo's of the 'made up' businesses in the portfolio section.
 
