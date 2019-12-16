@@ -93,7 +93,7 @@ To run locally, you can clone this repository directly into the editor of your c
 ## Credits
 
 ### Content
-- All the written content in the Landing, Services, Methods, Portfolio and Contact section were written by me.
+- All the written content in the Landing, Services, Methods, Portfolio and Contact section were written by me with the [Montserrat font.](https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat)
 
 ### Media
 - [Canva](https://www.canva.com/) was used to create the agency's logo, and the logo's of the 'made up' businesses in the portfolio section.
