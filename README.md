@@ -14,7 +14,7 @@ The live website for the agency can be found [here](https://mark-joyce.github.io
 ## UX
 
 ### User stories
-As a potential client visiting the website I expect to see a showcase of what services the agency provides and a portfolio of their previous work with other clients, along with a method of contacting the agency and some marketing processes the agency uses for my business.
+As a potential client visiting the website I expect to see a showcase of what services the agency provides and a portfolio of their previous work with other clients, along with a method of contacting the agency and marketing processes the agency would use for my business.
 
 ### Strategy
 My aim in the design was to showcase the possibilities of working with the agency & converting those website visitors into paying clients.
@@ -51,7 +51,7 @@ All the code behind these features can be found in the index.html file, with the
 - Navbar with 4 different tabs that go directly to that section of the page when clicked, and the navbar collapses into a burger menu when under 767px in width.
 - 'Work With Us' button is used to get visitors to interact with the page on landing, once clicked it brings them to the 'Our Services' section.
 - In the 'Our Services' section, the services of each plan are shown, the 3 'Get Quote' buttons inside the cards bring the user directly to the contact section where they can email or call the agency. Also, a hover effect is created when the card is being interacted with (Cursor on desktop, touch on tablet/mobile).
-- Inside the 'Methods We Use', the main services of the agency are listed with a corresponding image.
+- Inside the 'Methods We Use', the main methods of the agency are listed with a corresponding image.
 - The 'Portfolio' section shows work done with past clients, including the business' name, logo and a description of what they achieved with Blue Wave.
 - The 'Contact Us' section gives the website visitors an opportunity to contact the marketing agency. When visitors fill out their details in the email form and click the 'Send Email' button, it changes to show a message that their email has been sent and thanks them for contacting the agency. This feature was possible with a JavaScript function included in the script.
 - 'Back To Top' button is included in the footer for the benefit of the website visitor so they can navigate the website quickly and more efficiently as they're scrolling.
@@ -72,14 +72,14 @@ The 'Portfolio' section shows the user some work the agency did with past client
 The user can also contact the agency inside the 'Contact Us' section if they want to ask any questions or start working with them.
 The methods the agency primarily uses are shown too in the 'Methods We Use' so the user can see the processes involved.
 
-How the website looks and works on a mobile phone -  the brand logo is made 20% smaller using a media query to fit and look better on the smaller screen. The navbar collapses into a burger menu and when clicked, the 4 available tabs dropdown directly under the menu.
+How the website looks and works on a mobile phone -  the navbar collapses into a burger menu and when clicked, the 4 available tabs dropdown directly under the menu.
 The 3 cards for the services section become stacked on top of each other on the smaller screen but each card still has the hover function when clicked. The cards for the portfolio section stack on top of each other too. The inputs for the contact form become the same width when on a mobile phone.
 
 How the website looks and works on a tablet - the Blue Wave website on a tablet looks almost identical to what it looks and does on a desktop. The only change between them is that the cards from the services section and the portfolio section become more thin.
 
 How the website looks and works on a desktop - the logo and the navigation tabs are centered with a container. The cards in the services section are side by side with each card bigger than the one to its left, which represents the difference of the plans with more services in the 'Medium' and 'Large' plans. The cards of the portfolio are side by side too, and the contact forms inputs are in a col 6-6-12 formation with the 'Name' and 'Email' side by side.
 
-All links (the Privacy Policy + the Terms of Service) will open in a new tab using 'target="_blank"' for the best user experience
+All links (the Privacy Policy + the Terms of Service) will open in a new tab using 'target="_blank"' for the best user experience.
 All links and navigation tabs have been manually tested to ensure that they are pointing to the correct destination.
 
 This site was tested across multiple browsers on desktop (Google Chrome, Internet Explorer, Firefox) and on multiple mobile devices (iPhone X, OnePlus One, iPad) to ensure compatibility and responsiveness.
@@ -98,11 +98,11 @@ To run locally, you can clone this repository directly into the editor of your c
 ### Media
 - [Canva](https://www.canva.com/) was used to create the agency's logo, and the logo's of the 'made up' businesses in the portfolio section.
 
-- The photos inside the 'Methods We Use' section and the gif of the wave crashing at the websites page end were all sourced from Google Images.
+- The photos inside the 'Methods We Use' section and the gif of the wave crashing at the websites page end were all sourced from [Google Images.](https://www.google.com/imghp?hl=en)
 
 ### Acknowledgements
 
-- The [Bootstrap](https://getbootstrap.com/docs/4.4/) components were used for the creation of the navbar & the cards of the 'Methods We Use' and 'Portfolio' sections.
+- [Bootstrap's](https://getbootstrap.com/docs/4.4/) components were used for the creation of the navbar & the cards of the 'Methods We Use' and 'Portfolio' sections.
 
 - The media query for the smaller logo size on mobile phones was taken from this [Site.](https://stackoverflow.com/questions/39759892/html-css-make-image-resize-on-smaller-screens)
 
