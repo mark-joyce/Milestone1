@@ -242,11 +242,33 @@
 					</div>
                     </div>
                     
-                    <input type="submit" value='Send Email' class="btn btn-primary" id="submit" onclick="myFunction()">
+                    <input type="submit" value='Send Email' class="btn btn-primary" id="sent" onclick="myFunction()">
                 </form>              
              </div>
         </div>
     </section>
+
+    <!-- *******CONTACT FORM MODAL******* -->
+    <div class="modal fade" tabindex="-1" role="dialog" id='contactFormModal'>
+        <br><br><br><br><br>
+        <div class="modal-dialog" role="document">
+            <br><br><br>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style='text-align: right;' aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Contact Form</h4>
+                </div>
+                <div class="modal-body">
+                    <p class='header'> About this contact form:</p>
+                        <p>This contact form does not currently send messages or collect any personal information. Furthermore, this site does not collect any personal data. Please consult the <a class='privacy-policy' href="privacy_policy.html"> privacy policy</a> for more details.</p>
+                        
+                    <div class="modal-footer">
+                        <button class='btn btn-md btn-default' data-dismiss="modal">I Understand!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 	<!-- Footer -->
 	<footer class="container padding text-center">
@@ -270,8 +292,13 @@
 	<!-- Sent! Button Function For Email -->
 	<script>
 		function myFunction() {
-		  document.getElementById("submit").innerHTML = "Sent! Thank You For Contacting Us.";
+		  document.getElementById("sent").innerHTML = "Sent! Thank You For Contacting Us.";
 		}
+
+     $('#contact-form').on('submit', function(e) {
+     $('#contactFormModal').modal('show');
+     e.preventDefault();
+	 })
 	</script>
 
 	<!-- Scripts - Bootstrap JS -->
