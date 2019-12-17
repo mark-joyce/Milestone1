@@ -111,6 +111,6 @@ To run locally, you can clone this repository directly into the editor of your c
 
 - The hover effect on the cards from the 'Our Services' section was taken from [here.](https://www.w3schools.com/howto/howto_css_pricing_table.asp)
 
-- The Sent! button JavaScript function was found through this forum [here.](https://stackoverflow.com/questions/10671174/changing-button-text-onclick)
+- The pop-up after the email sent button is clicked function was found through this forum [here.](https://www.pair.com/support/kb/how-to-use-jquery-to-generate-modal-pop-up-when-clicked/)
 
 - The auto close on click function for the navbar was found [here.](https://www.codeply.com/go/PqIBtz3HPL)
