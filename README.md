@@ -53,7 +53,7 @@ All the code behind these features can be found in the index.html file, with the
 - In the 'Our Services' section, the services of each plan are shown, the 3 'Get Quote' buttons inside the cards bring the user directly to the contact section where they can email or call the agency. Also, a hover effect is created when the card is being interacted with (Cursor on desktop, touch on tablet/mobile).
 - Inside the 'Methods We Use', the main methods of the agency are listed with a corresponding image.
 - The 'Portfolio' section shows work done with past clients, including the business' name, logo and a description of what they achieved with Blue Wave.
-- The 'Contact Us' section gives the website visitors an opportunity to contact the marketing agency. When visitors fill out their details in the email form and click the 'Send Email' button, it changes to show a message that their email has been sent and thanks them for contacting the agency. This feature was possible with a JavaScript function included in the script.
+- The 'Contact Us' section gives the website visitors an opportunity to contact the marketing agency. When visitors fill out their details and their message in the form and click the 'Send Email' button, a pop-up shows - telling them their email has been sent and that they will get a response in the next 24 hours. This feature was possible with a JQuery function.
 - 'Back To Top' button is included in the footer for the benefit of the website visitor so they can navigate the website quickly and more efficiently as they're scrolling.
 - Also in the footer, the 'Privacy Policy' and 'Terms of Service' links are included if the visitor needs to read them before making a decision to contact the agency to work with them.
 - At the websites page end, a GIF of a wave crashing is used to represent the agency's name and to add a fun user experience.
@@ -87,7 +87,7 @@ All links (the Privacy Policy + the Terms of Service) will open in a new tab usi
 All links and navigation tabs have been manually tested to ensure that they are pointing to the correct destination.
 
 This site was tested across multiple browsers on desktop (Google Chrome, Internet Explorer, Firefox) and on multiple mobile devices (iPhone X, OnePlus One, iPad) to ensure compatibility and responsiveness.
-During the testing phase, I realised that the agency's logo at the top left of the website (```class="brand"```) was distorted and not good quality when on mobile device browsers, so the width was reduced by 20% in a media query.
+During the testing phase, I realised that the agency's logo at the top left of the website (```class="brand"```) was distorted and not good quality when on mobile device browsers, so the width was reduced by 20% in a media query and floated to the left.
 
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
