@@ -107,11 +107,10 @@ To run locally, you can clone this repository directly into the editor of your c
 - The photos inside the 'Methods We Use' section and the gif of the wave crashing at the websites page end were all sourced from [Google Images.](https://www.google.com/imghp?hl=en)
 
 ### Acknowledgements
-
-- [Bootstrap's](https://getbootstrap.com/docs/4.4/) components were used for the creation of the navbar, jumbotron & the cards of the 'Methods We Use' and 'Portfolio' sections.
-
 - The media query for the smaller logo size on mobile phones was taken from this [site.](https://stackoverflow.com/questions/39759892/html-css-make-image-resize-on-smaller-screens)
 
 - The hover effect on the cards from the 'Our Services' section was taken from [here.](https://www.w3schools.com/howto/howto_css_pricing_table.asp)
 
 - The Sent! button JavaScript function was found through this forum [here.](https://stackoverflow.com/questions/10671174/changing-button-text-onclick)
+
+- The navbar auto close on click Javascript function was found [here.](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/)
