@@ -113,4 +113,4 @@ To run locally, you can clone this repository directly into the editor of your c
 
 - The Sent! button JavaScript function was found through this forum [here.](https://stackoverflow.com/questions/10671174/changing-button-text-onclick)
 
-- The navbar auto close on click Javascript function was found [here.](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/)
+- The auto close on click function for the navbar was found [here.]https://www.codeply.com/go/PqIBtz3HPL)

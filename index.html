@@ -25,13 +25,13 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"> <a class="nav-link" href="#services">SERVICES</a>
+					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link" href="#services">SERVICES</a>
 					</li>
-					<li class="nav-item"> <a class="nav-link" href="#methods">METHODS</a>
+					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link" href="#methods">METHODS</a>
 					</li>
-					<li class="nav-item"> <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link" href="#portfolio">PORTFOLIO</a>
 					</li>
-					<li class="nav-item"> <a class="nav-link" href="#contact">CONTACT</a>
+					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link" href="#contact">CONTACT</a>
 					</li>
 				</ul>
 			</div>
@@ -267,13 +267,6 @@
 		  document.getElementById("sent").innerHTML = "Sent! Thank You For Contacting Us.";
 		}
 	</script>
-
-    <!-- Navbar auto close on click -->
-    <script>
-        $('.navbar-collapse a').click(function(){
-            $(".navbar-collapse").collapse('hide');
-        });
-    </script>
 
 	<!-- Scripts - Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
