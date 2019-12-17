@@ -39,6 +39,12 @@
   .grey-background {
     background-color: #f5f5f5;
   }
+
+  /* -- Footer -- */
+  
+  .footer-links {
+  	display: inline-flex;
+  }
   
   /* -- Headings -- */
   
