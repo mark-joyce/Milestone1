@@ -1,4 +1,4 @@
-      /*-- Navbar - Bootstrap --*/
+ /*-- Navbar - Bootstrap --*/
   
   .body {
     font-family: 'Montserrat', sans-serif;
@@ -13,6 +13,10 @@
   .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
     text-align: right;
+  }
+
+  .navbar-brand {
+      float: left;
   }
   
   /* -- Body -- */
