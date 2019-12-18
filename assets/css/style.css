@@ -1,126 +1,127 @@
-  /*-- Google Font Import --*/
-  
-  @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-  
-  /*-- Navbar - Bootstrap --*/
-  
-  .body {
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .navbar { 
-    background-color: #46b3e6;
-    font-size: 13px;
-    letter-spacing: 2px;
-  }
-  
-  .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
-    text-align: right;
-  }
-  
-  /* -- Body -- */
-  
-  .padding {
-  	padding-top: 80px;
-    padding-bottom: 80px;
-  }
-  
-  .jumbotron {
-    background-color: #46b3e6;
-    color: #fff;
-    padding: 120px 25px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-  }
-  
-  .grey-background {
-    background-color: #f5f5f5;
-  }
+/*-- Google Font Import --*/
 
-  .br {
-  	margin-bottom: 2em;
-  }
-  
-  /* -- Footer -- */
-  
-  .footer-links {
-  	display: inline-flex;
-  }
-  
-  /* -- Headings -- */
-  
-  h2 {
-    font-size: 25px;
-    text-transform: uppercase;
-    color: #313131;
-    font-weight: 800;
-    margin-bottom: 25px;
-  }
-  
-  h4 {
-    font-size: 20px;
-    line-height: 1.375em;
-    color: #313131;
-    font-weight: 400;
-    margin-bottom: 35px;
-  }  
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-   /*-- 'Our Services' Cards (x3) - Bootstrap --*/
-	
-  .servicecard {
-    border: 1px solid #46b3e6; 
-    border-radius: 0;
-    transition: box-shadow 0.03s;
-  }
+/*-- Navbar - Bootstrap --*/
 
-  .servicecard-header {
-    color: #fff;
-    background-color: #46b3e6;
-    padding: 30px;
-    border-bottom: 1px solid transparent;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-  }
+.navbar {
+  background-color: #46b3e6;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
 
-  .servicecard:hover {
-    box-shadow: 5px 0px 40px rgba(0,0,0, .4);
-  }
+.navbar li a,
+.navbar .navbar-brand {
+  color: #fff !important;
+  text-align: right;
+}
 
-  .servicecard-footer h4 {
-    color: #aaa;
-    font-size: 15px;
+/* -- Body -- */
+
+.body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.padding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.jumbotron {
+  background-color: #46b3e6;
+  color: #fff;
+  padding: 120px 25px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.grey-background {
+  background-color: #f5f5f5;
+}
+
+.br {
+  margin-bottom: 2em;
+}
+
+/* -- Footer -- */
+
+.footer-links {
+  display: inline-flex;
+}
+
+/* -- Headings -- */
+
+h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #313131;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 1.375em;
+  color: #313131;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+/*-- 'Our Services' Cards (x3) - Bootstrap --*/
+
+.servicecard {
+  border: 1px solid #46b3e6;
+  border-radius: 0;
+  transition: box-shadow 0.03s;
+}
+
+.servicecard-header {
+  color: #fff;
+  background-color: #46b3e6;
+  padding: 30px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.servicecard:hover {
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, .4);
+}
+
+.servicecard-footer h4 {
+  color: #aaa;
+  font-size: 15px;
+}
+
+.servicecard-footer .btn {
+  margin: 25px 0;
+}
+
+/*-- Images --*/
+
+.method-img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.wavegif {
+  width: 100%;
+  max-height: 60px;
+  bottom: 0px;
+}
+
+/*-- Media Query (Mobile Phones) --*/
+
+@media screen and (max-width: 768px) {
+  .brand {
+    width: 80%;
+    float: left;
   }
-  
-  .servicecard-footer .btn {
-    margin: 25px 0;
-  }
-  
-  /*-- Images --*/
-  
-  .method-img {
-  	position: relative;
-  	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 40%;
-  }
-  
-  .wavegif {
-  	width: 100%;
-    max-height: 60px;
-    bottom: 0px;
-  }
-  
-  /*-- Media Query (Mobile Phones) --*/
-  
-  @media screen and (max-width: 768px) {
-    .brand {
-        width: 80%;
-        float: left;
-    }
-  }
+}
