@@ -53,12 +53,20 @@
 
 /* -- Headings -- */
 
+h1 {
+  color: #fff;
+}
+
 h2 {
   font-size: 25px;
   font-weight: 800;
   text-transform: uppercase;
   color: #313131;
   margin-bottom: 25px;
+}
+
+h3 {
+  color: #313131;
 }
 
 h4 {
