@@ -53,7 +53,7 @@ All the code behind these features can be found in the index.html file, with the
 - In the 'Our Services' section, the services of each plan are shown, the 3 'Get Quote' buttons inside the cards bring the user directly to the contact section where they can email or call the agency. Also, a hover effect is created when the card is being interacted with (Cursor on desktop, touch on tablet/mobile).
 - Inside the 'Methods We Use', the main methods of the agency are listed with a corresponding image.
 - The 'Portfolio' section shows work done with past clients, including the business' name, logo and a description of what they achieved with Blue Wave.
-- The 'Contact Us' section gives the website visitors an opportunity to contact the marketing agency. When visitors fill out their details and their message in the form and click the 'Send Email' button, a pop-up shows - telling them their email has been sent and that they will get a response in the next 24 hours. This feature was possible with a JQuery function.
+- The 'Contact Us' section gives the website visitors an opportunity to contact the marketing agency. When visitors fill out their details and their message in the form and click the 'Send Email' button, a pop-up shows - telling them their email has been sent and that they will get a response in the next 24 hours. This feature was possible with a function that's inside the assets/js folder.
 - 'Back To Top' button is included in the footer for the benefit of the website visitor so they can navigate the website quickly and more efficiently as they're scrolling.
 - Also in the footer, the 'Privacy Policy' and 'Terms of Service' links are included if the visitor needs to read them before making a decision to contact the agency to work with them.
 - At the websites page end, a GIF of a wave crashing is used to represent the agency's name and to add a fun user experience.
@@ -111,6 +111,6 @@ To run locally, you can clone this repository directly into the editor of your c
 
 - The hover effect on the cards from the 'Our Services' section was taken from [here.](https://www.w3schools.com/howto/howto_css_pricing_table.asp)
 
-- The pop-up after the email sent button is clicked JS function was found through this forum [here.](https://www.pair.com/support/kb/how-to-use-jquery-to-generate-modal-pop-up-when-clicked/)
+- The pop-up after the email sent button is clicked js function was found through this forum [here.](https://www.pair.com/support/kb/how-to-use-jquery-to-generate-modal-pop-up-when-clicked/)
 
 - The auto close on click function for the navbar on mobiles was found [here.](https://www.codeply.com/go/PqIBtz3HPL)
