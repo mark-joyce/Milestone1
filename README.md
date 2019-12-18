@@ -111,6 +111,6 @@ To run locally, you can clone this repository directly into the editor of your c
 
 - The hover effect on the cards from the 'Our Services' section was taken from [here.](https://www.w3schools.com/howto/howto_css_pricing_table.asp)
 
-- The pop-up after the email sent button is clicked js function was found through this forum [here.](https://www.pair.com/support/kb/how-to-use-jquery-to-generate-modal-pop-up-when-clicked/)
+- The pop-up after the email sent button is clicked js function was found through these forums [here.](https://www.pair.com/support/kb/how-to-use-jquery-to-generate-modal-pop-up-when-clicked/) and [here.](https://getbootstrap.com/docs/4.4/components/modal/)
 
 - The auto close on click function for the navbar on mobiles was found [here.](https://www.codeply.com/go/PqIBtz3HPL)
