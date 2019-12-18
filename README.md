@@ -48,7 +48,7 @@ The color scheme was chosen to create a friendly and natural feel with clean typ
 All the code behind these features can be found in the index.html file, with the help of the contents inside the asset folder i.e the CSS and Images.
 
 - Custom logo created for the header/navbar of the agency website.
-- Navbar with 4 different tabs that go directly to that section of the page when clicked, and the navbar collapses into a burger menu when under 767px in width.
+- Navbar with 4 different tabs that go directly to that section of the page and auto closes when clicked, and the navbar collapses into a burger menu when under 767px in width.
 - 'Work With Us' button is used to get visitors to interact with the page on landing, once clicked it brings them to the 'Our Services' section.
 - In the 'Our Services' section, the services of each plan are shown, the 3 'Get Quote' buttons inside the cards bring the user directly to the contact section where they can email or call the agency. Also, a hover effect is created when the card is being interacted with (Cursor on desktop, touch on tablet/mobile).
 - Inside the 'Methods We Use', the main methods of the agency are listed with a corresponding image.
@@ -77,7 +77,7 @@ The 3 cards for the services section become stacked on top of each other on the 
 
 How the website looks and works on a tablet - the Blue Wave website on a tablet looks almost identical to what it looks and does on a desktop. The only change between them is that the cards from the services section and the portfolio section become more thin.
 
-How the website looks and works on a desktop - the logo and the navigation tabs are centered with a container. The cards in the services section are side by side with each card bigger than the one to its left, which represents the difference of the plans with more services in the 'Medium' and 'Large' plans. The cards of the portfolio are side by side too, and the contact forms inputs are in a col 6-6-12 formation with the 'Name' and 'Email' side by side.
+How the website looks and works on a desktop - the logo and the navigation tabs are centered with a container. The cards in the services section are side by side with each card bigger than the one to its left, which represents the difference of the plans with more services in the 'Medium' and 'Large' plans. The cards of the portfolio are side by side too, and the contact forms inputs are stacked on top of each other.
 
 This [validator](https://validator.w3.org/#validate_by_input) was used to test my HTML and see if there was any errors. In my testing I found that I had to change some code such as using alt's for 3 of the images and fixing a broken div.
 
@@ -87,7 +87,7 @@ All links (the Privacy Policy + the Terms of Service) will open in a new tab usi
 All links and navigation tabs have been manually tested to ensure that they are pointing to the correct destination.
 
 This site was tested across multiple browsers on desktop (Google Chrome, Internet Explorer, Firefox) and on multiple mobile devices (iPhone X, OnePlus One, iPad) to ensure compatibility and responsiveness.
-During the testing phase, I realised that the agency's logo at the top left of the website (```class="brand"```) was distorted and not good quality when on mobile device browsers, so the width was reduced by 20% in a media query and floated to the left.
+During the testing phase, I realised that the agency's logo at the top left of the website (```class="brand"```) was distorted and not of good quality when on mobile device browsers, so the width was reduced by 20% in a media query and floated to the left.
 
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
@@ -113,4 +113,4 @@ To run locally, you can clone this repository directly into the editor of your c
 
 - The pop-up after the email sent button is clicked function was found through this forum [here.](https://www.pair.com/support/kb/how-to-use-jquery-to-generate-modal-pop-up-when-clicked/)
 
-- The auto close on click function for the navbar was found [here.](https://www.codeply.com/go/PqIBtz3HPL)
+- The auto close on click function for the navbar on mobiles was found [here.](https://www.codeply.com/go/PqIBtz3HPL)
