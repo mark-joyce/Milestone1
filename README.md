@@ -26,7 +26,7 @@ For potential clients, I wanted to provide them with an overview of what service
 The information is simply structured within one funnel-type page and is logically grouped. In the 'Methods' section, I wanted to show potential paying clients the methods of digital marketing the agency uses such as Facebook Ads & Google Ads, which are used to benefit the clients businesses in the way they want - possibly more sales, lead generation, brand awareness.
 
 ### Skeleton
-[Landing Page wireframe](https://github.com/mark-joyce/Milestone1/blob/master/wireframes/landing.jpg)
+[Landing Page wireframe](https://github.com/mark-joyce/Milestone1/blob/master/wireframes/bluelanding.jpg)
 
 [Contact wireframe](https://github.com/mark-joyce/Milestone1/blob/master/wireframes/contact.jpg)
 
