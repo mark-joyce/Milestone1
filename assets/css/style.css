@@ -55,16 +55,16 @@
 
 h2 {
   font-size: 25px;
+  font-weight: 800;
   text-transform: uppercase;
   color: #313131;
-  font-weight: 800;
   margin-bottom: 25px;
 }
 
 h4 {
   font-size: 20px;
-  color: #313131;
   font-weight: 400;
+  color: #313131;
 }
 
 /*-- 'Our Services' Cards (x3) - Bootstrap --*/
